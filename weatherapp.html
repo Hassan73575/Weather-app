@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="weatherapp.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <div class="child">
+        <div class="card">
+            <div class="card-header">
+                <h1><i class="fa-solid fa-location-dot icon"></i>Enter city Here</h1>
+            </div>
+            <div class="card-body">
+                <input type="text" name="" id="input" placeholder="Enter city name" class="form-control">
+            </div>
+            <div class="card-footer">
+                <button class="btn btn-primary" id="btn">
+                    <i class="fa-solid fa-cloud-sun-rain icon"></i> Get Weather
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="child2">
+        <div class="card">
+            <div class="card-header">
+                <h1><i class="fa-solid fa-cloud icon"></i>Weather App</h1>
+            </div>
+            <div class="card-body">
+                <i class="fa-solid fa-cloud-sun" id="sun"></i>               
+                <span><i class="fa-solid fa-temperature-half icon"></i>degree</span> <h1 id="degree"></h1>
+                <span><i class="fa-solid fa-cloud icon"></i>clouds</span><h2 id="cloud"></h2>
+                <span><i class="fa-solid fa-location-dot icon"></i>location</span><h2 id="location"></h2>
+            </div>
+            <div class="card-footer">
+                <div class="child3">
+                    <span><i class="fa-solid fa-temperature-half icon"></i>degree</span><h3 id="degree1"></h3>
+                </div>
+                <div class="child4">
+                    <span><i class="fa-solid fa-droplet icon"></i>humidity</span><h3 id="humidity"></h3>
+                </div>
+                <div>
+                    <span><i class="fa-solid fa-wind icon"></i>wind</span><h3 id="wind"></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="weatherapp.js"></script>
+</body>
+
+</html>
