@@ -10,33 +10,14 @@ body {
     align-items: center;
     justify-content: center;
     text-transform: capitalize;
-    background-image: url(wheat-fields-1853434_1280.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-size: 200% 200%;
-    animation: gradientBG 20s ease-in-out infinite;
 }
-
-@keyframes gradientBG {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
-}
-
 .card {
-    background: rgba(218, 196, 161, 0.397);
+    background: rgba(255, 255, 255, 0.1);
     border-radius: 22px;
-    box-shadow: 0 8px 32px 0 rgba(101, 67, 33, 0.3);
-    backdrop-filter: blur(18px);
-    -webkit-backdrop-filter: blur(18px);
-    border: 1.5px solid rgba(255, 243, 224, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
     max-width: 350px;
     min-width: 300px;
     margin: 0 auto;
@@ -48,14 +29,14 @@ body {
 }
 
 .card:hover {
-    box-shadow: 0 12px 40px 0 rgba(101, 67, 33, 0.4);
+    box-shadow: 0 12px 40px 0 rgba(31, 38, 135, 0.25);
     transform: translateY(-6px) scale(1.03);
-    border-color: #e6b980;
+    border-color: rgba(255, 255, 255, 0.3);
 }
 
 .card-header {
     padding: 24px 0 12px 0;
-    background: linear-gradient(90deg, #b8860b 0%, #daa520 100%);
+    background: linear-gradient(135deg, #00b4db 0%, #0083b0 100%);
     text-align: center;
 }
 
@@ -85,13 +66,13 @@ i{
     margin-right: 7px;
 }
 .card-body span i{
-    color: #b8860b;
+    color: #00b4db;
     margin-right: 5px;
 }
 
 .card-body input {
-    background: rgba(255,255,255,0.22);
-    border: none;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 10px;
     padding: 12px;
     color: #222;
@@ -104,7 +85,8 @@ i{
 }
 
 .card-body input:focus {
-    background: rgba(255,255,255,0.35);
+    background: rgba(255, 255, 255, 0.25);
+    border-color: rgba(255, 255, 255, 0.2);
     color: white;
 }
 
@@ -141,8 +123,8 @@ i{
     display: flex;
     justify-content: space-between;
     align-items: stretch;
-    background: rgba(218, 196, 161, 0.2);
-    border-top: 1px solid rgba(255, 243, 224, 0.2);
+    background: rgba(255, 255, 255, 0.05);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
     padding: 0;
     border-radius: 0 0 22px 22px;
     gap: 0;
@@ -150,7 +132,7 @@ i{
 .card-footer span {
     display: block;
     font-size: 0.95rem;
-    color: #b8860b;
+    color: #00b4db;
     margin-bottom: 2px;
     font-weight: 600;
 }
@@ -172,7 +154,7 @@ i{
 }
 .btn {
     padding: 12px 0;
-    background: linear-gradient(90deg, #daa520 0%, #b8860b 100%);
+    background: linear-gradient(135deg, #00b4db 0%, #0083b0 100%);
     border-radius: 8px;
     border: none;
     color: #fff;
@@ -189,8 +171,8 @@ i{
     width: 100%;
 }
 .btn:hover {
-    background: linear-gradient(90deg, #b8860b 0%, #daa520 100%);
-    box-shadow: 0 4px 16px rgba(218, 165, 32, 0.3);
+    background: linear-gradient(135deg, #0083b0 0%, #00b4db 100%);
+    box-shadow: 0 4px 16px rgba(0, 180, 219, 0.3);
     transform: translateY(-2px) scale(1.03);
 }
 .child, .child2 {
